@@ -6,13 +6,29 @@
 //  Copyright (c) 2012 Bradley Bosher. All rights reserved.
 //
 
-#include <iostream>
+#include "number.h"
 
-int main(int argc, const char * argv[])
+
+using namespace std;
+
+int main()
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    number p;
+    
+    long double number = 600851475143;
+    
+//    cout.precision(16);
+//    cout << number << "\n";
+    
+    //long double nom = number - 2;
+    
+    
+    p.primesUpTo(number, number);
+    
+  
+    
     return 0;
 }
+
 
