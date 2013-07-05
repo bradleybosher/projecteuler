@@ -1,0 +1,1 @@
+Beginnings of my Project Euler solutions, nothing fancy but just getting back into C++
